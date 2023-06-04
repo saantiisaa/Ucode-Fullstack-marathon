@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#human-container,
+#superhero-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    position: relative;
+}
+
+#human-container::before,
+#superhero-container::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #4CAF50;
+    top: -10px;
+    transform: rotate(45deg);
+}
+
+#human-container::before {
+    right: -10px;
+}
+
+#superhero-container::before {
+    left: -10px;
+}
+
+#human-container img,
+#superhero-container img {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#human-properties,
+#superhero-properties {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#human-properties p,
+#superhero-properties p {
+    margin: 5px 0;
+}
+
+#human-methods,
+#superhero-methods {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#human-methods button,
+#superhero-methods button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#human-methods button:hover,
+#superhero-methods button:hover {
+    background-color: #45a049;
+}
+
+#message,
+#calories,
+#superhero-calories {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.message-bubble {
+    position: relative;
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.message-bubble::before {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 8px 8px 0 0;
+    border-color: #4CAF50 transparent transparent transparent;
+    bottom: -6px;
+}
+
+.message-bubble.right {
+    float: right;
+    margin-left: 10px;
+}
+
+.message-bubble.left {
+    float: left;
+    margin-right: 10px;
+}

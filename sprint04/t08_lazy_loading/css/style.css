@@ -1,0 +1,28 @@
+#message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #FFB997;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#message.loaded {
+    background-color: #5eba7d;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.image img {
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+.image img.loaded {
+    opacity: 1;
+}
+
+

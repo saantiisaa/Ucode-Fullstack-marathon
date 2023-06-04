@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Handbook</h1>
+</header>
+<main>
+    <section id="html">
+        <h2>HTML</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>table</h3>
+                <p>defines an HTML table</p><br>
+                <code>&lt;table&gt; &lt;/table&gt;</code><br><br>
+                <table>
+                    <thead>
+                    <tr>
+                        <td>Country</td>
+                        <td>Country</td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="grid-item">
+                <h3>hr</h3>
+                <p>draws a horizontal line</p><br>
+                <code>&lt;hr&gt;</code><br><br>
+                <hr><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem nonummy nibh</p><hr>
+            </div>
+            <div class="grid-item">
+                <h3>input</h3>
+                <p>Designed to create text fields, various buttons, radio buttons and checkboxes</p><br>
+                <code>&lt;input type="text"&gt;</code><br>
+                <p>
+                    <h3>Your name</h3>
+                    <input type="text" size="18">
+                </p>
+                <p>
+                <h3>Question</h3>
+                    <input type="radio" id="unknownChoice" value="unknown" name="radiogroup">
+                    <label for="unknownChoice">answer</label><br>
+                    <input type="radio" id="freakChoice" value="freak" name="radiogroup">
+                    <label for="freakChoice">answer</label><br>
+                    <input type="radio" id="chosenChoice" value="chosen" name="radiogroup">
+                    <label for="chosenChoice">answer</label><br>
+                </p>
+            </div>
+            <div class="grid-item">
+                <h3>button</h3>
+                <p>The &lt;button&gt; element defines a clickable button</p><br>
+                <code>&lt;button&gt;Click me&lt;/button&gt;</code><br><br><br>
+                <button>Button</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="css">
+        <h2>CSS</h2>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>background</h3>
+                <p>specifies the background of an element</p><br>
+                <code>background:[];</code>
+                <p id="backtext"><br>Text<br><br></p>
+            </div>
+            <div class="grid-item">
+                <h3>line-height</h3>
+                <p>specifies the height of a line</p><br>
+                <code>line-height: 1.5;</code>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+            </div>
+            <div class="grid-item">
+                <h3>text-transform</h3>
+                <p>controls the capitalization of text</p><br>
+                <code>text-transform: uppercase;</code>
+                <p>LOREM Ipsum Dolor Sit AMET, CONSECTETUR adipiscing elit. VITAE, DOLORE</p>
+            </div>
+            <div class="grid-item">
+                <h3>font-size</h3>
+                <p>The font-size property sets the size of the text</p><br>
+                <code>font-size: 24px;</code>
+                <p id="fs">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ratione, esse</p>
+            </div>
+        </div>
+    </section>
+        <div class="section">
+            <h2>PROTOCOLS</h2>
+            <div class="grid-container">
+                <div class="grid-item">
+                    <h3>HTTP Methods</h3>
+                    <p>The HTTP methods define actions to be performed on a resource, such as GET, POST, PUT, DELETE, and others</p>
+                    <p><b>GET</b> - retrieves information from the server<br>
+                        <b>POST</b> - sends information to the server<br>
+                        <b>PUT</b> - updates an existing resource<br>
+                        <b>DELETE</b> - deletes a resource<br>
+                        <b>HEAD</b> - retrieves the headers for a resource<br>
+                        <b>OPTIONS</b> - retrieves the supported methods for a resource<br>
+                        <b>CONNECT</b> - establishes a network connection to a resource<br>
+                        <b>TRACE</b> - retrieves a diagnostic trace of a resource</p>
+                </div>
+                <div class="grid-item">
+                    <h3>HTTP Status Codes</h3>
+                    <p>HTTP status codes are used to indicate the status of a client's request to a server</p>
+                    <p><b>1xx</b> - Informational<br>
+                        <b>2xx</b> - Successful<br>
+                        <b>3xx</b> - Redirection<br>
+                        <b>4xx</b> - Client Error<br>
+                        <b>5xx</b> - Server Error</p>
+                </div>
+                <div class="grid-item">
+                    <h3>DNS List by Types</h3>
+                    <p>DNS (Domain Name System) is used to translate domain names into IP addresses</p>
+                    <p><b>A Record</b> - maps a domain name to an IP address<br>
+                        <b>AAAA Record</b> - maps a domain name to an IPv6 address<br>
+                        <b>CNAME Record</b> - maps an alias name to a canonical name<br>
+                        <b>MX Record</b> - maps a domain name to a mail exchange server<br>
+                        <b>NS Record</b> - maps a domain name to a name server<br>
+                        <b>PTR Record</b> - maps an IP address to a domain name<br>
+                        <b>SOA Record</b> - specifies information about a zone or domain<br>
+                        <b>TXT Record</b> - adds additional information about a domain</p>
+                </div>
+                <div class="grid-item">
+                    <h3>Identifying Google's IP</h3>
+                    <p>One way to identify Google's IP address is by using the command prompt on a Windows computer. To do this, follow these steps:</p>
+                    <ol>
+                        <li>Open the command prompt</li>
+                        <li>Type "nslookup google.com" and press enter</li>
+                        <li>Look for the "Address" field in the output</li>
+                    </ol>
+                    <p>The IP address associated with Google.com should be listed in the "Address" field.</p>
+                </div>
+            </div>
+        </div>
+</main>
+</body>
+</html>

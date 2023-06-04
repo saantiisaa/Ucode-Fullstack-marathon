@@ -1,0 +1,68 @@
+body {
+    color: #1b1649;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    margin: 0 0 24px;
+    text-shadow: 1px 1px 1px #082b34;
+    text-align: center;
+    background: url("https://img.freepik.com/free-photo/3d-render-purple-sunset-ocean-landscape_1048-6512.jpg?w=996&t=st=1685080433~exp=1685081033~hmac=e4c602ed3fe9d0690fb797b57927a7622772e42bc1961abd067ccf35fb13be85");
+    background-size: cover;
+}
+
+h1 {
+    color: #1b1649;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 50px 0 50px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #082b34;
+}
+
+h2 {
+    color: #1b1649;
+    font-family: 'Rouge Script', cursive;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 32px;
+    margin: 0 0 24px;
+    text-shadow: 1px 1px 1px #082b34;
+}
+
+.forecast-card {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.forecast-card__date {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.forecast-card__icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+.forecast-card__temperature {
+    font-size: 24px;
+}
+
+.forecast-card__description {
+    font-family: 'Rouge Script', cursive;
+    margin-top: 10px;
+}
+
+.forecast-card__location {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
