@@ -1,0 +1,41 @@
+table,
+td {
+    border: 2px solid #ffffff;
+    padding: 10px;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+img {
+    border-radius: 25px;
+    height: 120px;
+    width: 120px;
+}
+
+.soul {
+    background-color: rgba(204, 149, 77, 1);
+}
+
+.time {
+    background-color: rgba(55, 126, 34, 1);
+}
+
+.space {
+    background-color: rgba(34, 86, 142, 1);
+}
+
+.mind {
+    background-color: rgba(255, 255, 85, 1);
+}
+
+.reality {
+    background-color: rgba(178, 56, 53, 1);
+}
+
+.power {
+    background-color: rgba(127, 117, 178, 1);
+}

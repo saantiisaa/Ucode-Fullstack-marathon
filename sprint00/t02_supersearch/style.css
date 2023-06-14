@@ -1,0 +1,23 @@
+div {
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+.search_field {
+    color: green;
+    height: 2em;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.search_field:hover {
+    color: red;
+}
+
+.find_button {
+    color: green;
+}
+
+.find_button:hover {
+    color: red;
+}
