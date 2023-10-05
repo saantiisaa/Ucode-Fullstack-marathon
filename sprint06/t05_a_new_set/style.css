@@ -1,0 +1,24 @@
+div {
+    margin: 1%;
+}
+
+textarea {
+    height: auto;
+    width: 50%;
+}
+
+#data-block{
+    margin: 0 0 1%;
+    padding: 1%;
+    border: 1px solid black;
+    background-color: #dedede;
+}
+
+#application {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+#age {
+    width: 5%;
+}

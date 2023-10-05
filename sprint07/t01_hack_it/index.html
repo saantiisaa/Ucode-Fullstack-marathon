@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Encryption</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>Password Encryption</h1>
+<div id="password-block">
+    <label for="password">Password:</label>
+    <input type="password" id="password" required>
+</div>
+<div id="salt-block">
+    <label for="salt">Salt:</label>
+    <input type="text" id="salt" required>
+</div>
+<button id="save-button">Save</button>
+<div id="result-block" style="display: none;">
+    <p>Hashed Password:</p>
+    <p id="hashed-password"></p>
+    <label for="guess">Guess the Password:</label>
+    <input type="password" id="guess">
+    <button id="check-button">Check</button>
+</div>
+<button id="clear-button">Clear Session</button>
+</body>
+</html>

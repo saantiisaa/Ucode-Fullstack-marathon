@@ -1,0 +1,19 @@
+.key {
+    color: red;
+}
+
+.box {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.box .box {
+    width: auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}

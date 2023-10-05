@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Conversion</title>
+    <script src="index.js"></script>
+</head>
+<body>
+<h1>String Conversion</h1>
+<div id="input-block">
+    <label for="inputString">Input String:</label>
+    <input type="text" id="inputString" required>
+</div>
+<div id="charset-block">
+    <label for="charsets">Select Charset:</label>
+    <select id="charsets">
+        <option value="utf8">UTF-8</option>
+        <option value="latin1">ISO-8859-1 (Latin-1)</option>
+        <option value="utf16">UTF-16</option>
+    </select>
+</div>
+<button id="change-charset-button">Change Charset</button>
+<button id="clear-button">Clear</button>
+<div id="output-block">
+    <p>Converted Strings:</p>
+    <div id="utf8-output" class="output" style="display: none;">
+        <p><strong>UTF-8:</strong></p>
+        <p id="utf8-string"></p>
+    </div>
+    <div id="latin1-output" class="output" style="display: none;">
+        <p><strong>ISO-8859-1 (Latin-1):</strong></p>
+        <p id="latin1-string"></p>
+    </div>
+    <div id="utf16-output" class="output" style="display: none;">
+        <p><strong>UTF-16:</strong></p>
+        <p id="utf16-string"></p>
+    </div>
+</div>
+</body>
+</html>

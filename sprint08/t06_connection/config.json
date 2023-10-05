@@ -1,0 +1,6 @@
+{
+    "host":"localhost",
+    "user": "akulak",
+    "password": "securepass",
+    "data_base": "ucode_web"
+}
